@@ -1,4 +1,4 @@
-package com.example.qep.Service;
+package com.example.qep.services;
 
 import com.example.qep.entity.EtatAccreditation;
 import com.example.qep.repository.EtatAccreditationRepository;

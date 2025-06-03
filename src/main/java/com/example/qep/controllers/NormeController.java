@@ -9,7 +9,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/normes")
-@CrossOrigin(origins = "*")
+
 public class NormeController {
 
     private final NormeService normeService;

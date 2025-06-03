@@ -1,4 +1,4 @@
-package com.example.qep.Controller;
+package com.example.qep.controllers;
 
 import com.example.qep.DTO.Request.PointPrelevementRequestDTO;
 import com.example.qep.DTO.Response.PointPrelevementResponseDTO;

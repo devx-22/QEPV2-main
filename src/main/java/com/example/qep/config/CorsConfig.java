@@ -14,7 +14,7 @@ public class CorsConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("http://localhost:4200") // specify exact frontend origin
+                        .allowedOriginPatterns("http://localhost:4200") // ✅ Replace "*" with the real origin
                         .allowedMethods("*")
                         .allowedHeaders("*")
                         .allowCredentials(true);

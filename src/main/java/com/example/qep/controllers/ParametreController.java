@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/parametres")
-@CrossOrigin(origins = "*")
+
 public class ParametreController {
 
     @Autowired

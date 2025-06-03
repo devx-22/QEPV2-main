@@ -1,4 +1,4 @@
-package com.example.qep.Controller;
+package com.example.qep.controllers;
 
 import com.example.qep.entity.Circuit;
 import com.example.qep.entity.DP;

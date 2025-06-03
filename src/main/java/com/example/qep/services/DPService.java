@@ -1,4 +1,4 @@
-package com.example.qep.Service;
+package com.example.qep.services;
 
 import com.example.qep.entity.Circuit;
 import com.example.qep.entity.DP;

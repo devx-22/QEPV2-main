@@ -8,7 +8,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/resultats")
-@CrossOrigin("*")
+
 public class ResultatController {
 
     private final ResultatRepository repo;

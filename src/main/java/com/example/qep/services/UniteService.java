@@ -1,4 +1,4 @@
-package com.example.qep.Service;
+package com.example.qep.services;
 
 import com.example.qep.entity.Unite;
 import com.example.qep.repository.UniteRepository;

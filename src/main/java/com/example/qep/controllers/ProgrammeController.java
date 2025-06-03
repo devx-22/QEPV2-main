@@ -8,7 +8,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/programmes")
-@CrossOrigin(origins = "*")
+
 public class ProgrammeController {
 
     private final ProgrammeRepository programmeRepository;
