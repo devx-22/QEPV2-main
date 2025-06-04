@@ -2,7 +2,7 @@ package com.example.qep.controllers;
 
 import com.example.qep.DTO.Request.PointPrelevementRequestDTO;
 import com.example.qep.DTO.Response.PointPrelevementResponseDTO;
-import com.example.qep.Service.PointPrelevementService;
+import com.example.qep.services.PointPrelevementService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

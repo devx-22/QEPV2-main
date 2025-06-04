@@ -1,7 +1,7 @@
 package com.example.qep.controllers;
 
 import com.example.qep.entity.EtatAccreditation;
-import com.example.qep.Service.EtatAccreditationService;
+import com.example.qep.services.EtatAccreditationService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

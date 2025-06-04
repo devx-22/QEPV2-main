@@ -2,7 +2,7 @@ package com.example.qep.controllers;
 
 import com.example.qep.entity.Circuit;
 import com.example.qep.entity.DP;
-import com.example.qep.Service.DPService;
+import com.example.qep.services.DPService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

@@ -1,7 +1,7 @@
 package com.example.qep.controllers;
 
 import com.example.qep.entity.Unite;
-import com.example.qep.Service.UniteService;
+import com.example.qep.services.UniteService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

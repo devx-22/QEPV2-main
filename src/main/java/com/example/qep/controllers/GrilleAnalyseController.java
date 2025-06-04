@@ -2,7 +2,7 @@ package com.example.qep.controllers;
 
 import com.example.qep.DTO.Request.GrilleAnalyseRequestDTO;
 import com.example.qep.DTO.Response.GrilleAnalyseResponseDTO;
-import com.example.qep.Service.GrilleAnalyseService;
+import com.example.qep.services.GrilleAnalyseService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
