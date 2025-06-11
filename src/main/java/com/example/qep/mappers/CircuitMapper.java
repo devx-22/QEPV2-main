@@ -18,17 +18,25 @@ public class CircuitMapper {
         return circuit;
     }
     public static CircuitResponseDTO toResponseDTO(Circuit circuit) {
-        if (circuit == null) {
-            return null;
-        }
-
         CircuitResponseDTO dto = new CircuitResponseDTO();
+
         dto.setId(circuit.getId());
         dto.setNom(circuit.getNom());
         dto.setDateCreation(circuit.getDateCreation());
-        dto.setDpNom(
-                circuit.getDp() != null ? circuit.getDp().getNom() : null
-        );
+
+        if (circuit.getDp() != null) {
+            dto.setDpNom(circuit.getDp().getNom());
+        }
+
+        if (circuit.getProgramme() != null) {
+            dto.setProgrammeNom(circuit.getProgramme().getNom());
+        }
+
+        dto.setTypeAnalyse("TR1"); // Temporary static value
+        dto.setNbPlanifies(10);    // Fake counts for now
+        dto.setNbRealises(5);
+        dto.setNbTermines(3);
+
         return dto;
     }
 }
